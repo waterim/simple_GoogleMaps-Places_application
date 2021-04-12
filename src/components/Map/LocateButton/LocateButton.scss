@@ -1,0 +1,15 @@
+.locateButton{
+    position: absolute;
+    z-index: 1;
+    bottom: 1.5rem;
+    left: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: none;
+    color: #666666;
+    cursor: pointer;
+
+    &:hover{
+        color: #454545;
+    }
+}

@@ -1,0 +1,32 @@
+.container{
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0.5rem;
+
+        .switchButton{
+            align-self: flex-start;
+            border-radius: 1rem;
+            outline: none;
+            width: 7rem;
+            height: 3rem;
+            border: none;
+            background: #65b6fc;
+            font-size: 1.5rem;
+            margin: 0.5rem;
+            color: white;
+            cursor: pointer;
+            box-shadow: -2px 2px 9px 0px rgba(26, 26, 26, 0.2);
+
+            &:hover{
+                box-shadow: -2px 2px 9px 0px rgba(26, 26, 26, 0.4);
+            }
+        }
+    }
+
+
+    .dataContainer{
+        position: relative;
+    }
+}
